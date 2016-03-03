@@ -5,11 +5,9 @@ Cam is a simple IP camera proxy: it polls single-frame JPEG output from one or
 more IP cameras, and serves the frames out over HTTP in JPEG and MJPEG format.
 
 *This was a quick and dirty solution developed for a friend.*  More serious
-applications may benefit from [ffmpeg], [gstreamer], or a dedicated IP camera
+applications may benefit from [ffmpeg](http://ffmpeg.org/),
+[gstreamer](http://gstreamer.freedesktop.org/), or a dedicated IP camera
 package.
-
-[ffmpeg](http://ffmpeg.org/)
-[gstreamer](http://gstreamer.freedesktop.org/)
 
 
 ## Build
