@@ -1,0 +1,9 @@
+{
+    "server": { 
+        "addr": "0.0.0.0:8080" 
+    },
+    "sources": [
+        { "name": "camera1", "url": "http://camera1/jpeg.cgi" },
+        { "name": "camera2", "url": "http://camera2/jpeg.cgi", "user": "test", "pass": "secret" }
+    ]
+}
